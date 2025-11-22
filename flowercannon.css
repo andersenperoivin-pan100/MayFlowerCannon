@@ -1,0 +1,24 @@
+body {
+    overflow: hidden;
+    background-image: url(background.png);
+}
+
+#cannonWrapper {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#cannon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cannonBall {
+    font-size: 20px;
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
